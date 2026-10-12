@@ -2,25 +2,27 @@
 
 ## Overview
 
-This folder contains the business analysis deliverables created to understand STIPT's existing processes, identify operational inefficiencies, and establish the foundation for process improvement.
+This folder contains the business analysis deliverables created to understand the existing business processes, identify operational inefficiencies, and investigate their underlying causes.
 
 ## Analysis Activities
 
 ### 1. Fishbone Analysis
 
-The fishbone diagram investigates possible root causes of the identified problems, helping distinguish underlying issues from their symptoms.
+The fishbone diagram investigates the possible root causes of the identified business problems, helping distinguish underlying issues from their symptoms.
 
-### 2. Current Situation (IST)
+### 2. IST Process, Bottlenecks & Wastes
 
-The IST analysis visualises how the existing business processes operate, including the activities, responsibilities, and information flows involved.
+The BPMN diagram visualises the current business processes, including the activities, responsibilities, and decision points involved.
 
-### 3. Bottlenecks and Wastes
+The analysis focuses on two processes:
 
-The bottleneck and waste analysis identifies inefficiencies within the current processes, including unnecessary activities, delays, and opportunities for improvement.
+- **Planning & Scheduling:** How tasks are assigned, communicated, and completed.
+- **Complaint Handling:** How customer complaints are received, resolved, and communicated.
 
+The diagram also identifies bottlenecks and wastes, including communication delays, waiting times, and unnecessary activities.
 
 ## Purpose
 
-Together, these deliverables provide an understanding of the current business situation and the problems that need to be addressed.
+These analyses provide an understanding of the current situation and the main problems affecting process efficiency.
 
-The findings form the foundation for the next project stages: developing the SOLL process, performing a GAP analysis, and defining business, user, and system requirements.
+The findings form the foundation for developing the future situation (SOLL), conducting a GAP analysis, and defining business, user, and system requirements.
