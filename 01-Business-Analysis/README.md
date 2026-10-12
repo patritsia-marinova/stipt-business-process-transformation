@@ -6,20 +6,19 @@ This folder contains the business analysis deliverables created to understand th
 
 ## Analysis Activities
 
+## Analysis Activities
+
 ### 1. Fishbone Analysis
+
+[View Fishbone Analysis](Problem%20Analysis%20Intigo%20%281%29.pdf)
 
 The fishbone diagram investigates the possible root causes of the identified business problems, helping distinguish underlying issues from their symptoms.
 
 ### 2. IST Process, Bottlenecks & Wastes
 
-The BPMN diagram visualises the current business processes, including the activities, responsibilities, and decision points involved.
+[View IST, Bottlenecks & Wastes](IST_Bottlenecks_Wastes.pdf)
 
-The analysis focuses on two processes:
-
-- **Planning & Scheduling:** How tasks are assigned, communicated, and completed.
-- **Complaint Handling:** How customer complaints are received, resolved, and communicated.
-
-The diagram also identifies bottlenecks and wastes, including communication delays, waiting times, and unnecessary activities.
+The BPMN diagram visualises the current business processes, including planning, scheduling, and complaint handling. It also identifies bottlenecks and wastes such as communication delays, waiting times, and unnecessary activities.
 
 ## Purpose
 
