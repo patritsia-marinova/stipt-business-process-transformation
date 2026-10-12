@@ -6,17 +6,18 @@ This folder contains the business analysis deliverables created to understand ST
 
 ## Analysis Activities
 
-### 1. Current Situation (IST)
+### 1. Fishbone Analysis
+
+The fishbone diagram investigates possible root causes of the identified problems, helping distinguish underlying issues from their symptoms.
+
+### 2. Current Situation (IST)
 
 The IST analysis visualises how the existing business processes operate, including the activities, responsibilities, and information flows involved.
 
-### 2. Bottlenecks and Wastes
+### 3. Bottlenecks and Wastes
 
 The bottleneck and waste analysis identifies inefficiencies within the current processes, including unnecessary activities, delays, and opportunities for improvement.
 
-### 3. Fishbone Analysis
-
-The fishbone diagram investigates possible root causes of the identified problems, helping distinguish underlying issues from their symptoms.
 
 ## Purpose
 
