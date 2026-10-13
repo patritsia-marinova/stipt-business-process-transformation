@@ -12,6 +12,8 @@ The main deliverables were the SOLL process, Key Performance Indicators (KPIs), 
 
 ### 1. SOLL – Proposed Business Solution
 
+[View SOLL Process](https://github.com/patritsia-marinova/stipt-business-process-transformation/blob/main/03-Solution-and-System-Design/SOLL%20Stipt%20%282%29.pdf)
+
 The SOLL process represents the improved future workflow designed to address the bottlenecks and wastes identified during the initial business analysis.
 
 The proposed solution introduces digital planning and scheduling, a more structured complaint-handling process, and clearer communication between cleaners, team leaders, account managers, and customers.
@@ -24,6 +26,8 @@ This connection was important because the technical design needed to reflect how
 
 ### 2. Key Performance Indicators (KPIs)
 
+[View Key Performance Indicators](https://github.com/patritsia-marinova/stipt-business-process-transformation/blob/main/03-Solution-and-System-Design/KPI%27S%20.pdf)
+
 I developed KPIs to define how the organisation could measure the performance of the proposed solution.
 
 The indicators were based on discussions with Harald, who explained which aspects of the business he wanted to monitor.
@@ -35,6 +39,8 @@ During the group delivery session, Harald confirmed that the KPIs matched his ex
 This demonstrated that the performance measurements were aligned with the client's objectives and provided a foundation for evaluating the effectiveness of the proposed system.
 
 ### 3. Entity Relationship Diagram (ERD)
+
+[View Entity Relationship Diagram](https://github.com/patritsia-marinova/stipt-business-process-transformation/blob/main/03-Solution-and-System-Design/ERD%20Stipt.png)
 
 I developed an Entity Relationship Diagram to represent the data structure required to support the SOLL process.
 
