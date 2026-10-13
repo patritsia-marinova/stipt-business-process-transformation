@@ -24,7 +24,7 @@ These indicators later formed the basis for the Business Balanced Scorecard, SQL
 
 ### 3. Entity Relationship Diagram (ERD)
 
-[View Final Entity Relationship Diagram](Final%20ERD.png)
+[View Final Entity Relationship Diagram](ERD%20Stipt.png)
 
 I designed the ERD based on the SOLL process, defining relationships between clients, sites, employees, tasks, and planning activities.
 
