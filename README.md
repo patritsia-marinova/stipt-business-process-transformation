@@ -41,7 +41,7 @@ Current-state process analysis, bottlenecks, wastes, and root cause investigatio
 Future-state process design, user personas, onboarding journeys, GAP analysis, requirements, and responsibilities.
 
 ### [03 – Solution & System Design](https://github.com/patritsia-marinova/stipt-business-process-transformation/tree/main/03-Solution-and-System-Design)
-SOLL process, measurable KPIs, and final ERD.
+SOLL process, measurable KPIs and KSF's, and final ERD.
 
 ### [04 – Implementation & Validation](https://github.com/patritsia-marinova/stipt-business-process-transformation/tree/main/04-Implementation-and-Validation)
 SQL and Python development, KPI analysis, business performance deliverables, and Power Apps demonstration.
