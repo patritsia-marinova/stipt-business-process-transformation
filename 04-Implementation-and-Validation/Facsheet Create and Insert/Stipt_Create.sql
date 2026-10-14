@@ -1,0 +1,23 @@
+CREATE TABLE Client (ClientID int IDENTITY NOT NULL, Name varchar(50) NOT NULL, Email varchar(50) NOT NULL, Phone varchar(50) NOT NULL, PRIMARY KEY (ClientID));
+CREATE TABLE Complaint (ComplaintID int IDENTITY NOT NULL, ReportID int NOT NULL, Approvedby varchar(255) NULL, Createdat datetime NOT NULL, Comment varchar(255) NULL, ClientID int NOT NULL, SiteID int NOT NULL, PlannedWorkTaskID int NOT NULL, AssignedEmployeeID int NOT NULL, CompletedAt datetime NULL, PRIMARY KEY (ComplaintID));
+CREATE TABLE CustomerSatisfaction (CustomerSatisfactionID int IDENTITY NOT NULL, ClientID int NOT NULL, Raiting int NOT NULL, Comment varchar(255) NULL, SubmittedAt datetime NOT NULL, PRIMARY KEY (CustomerSatisfactionID));
+CREATE TABLE Employee (EmployeeID int IDENTITY NOT NULL, RoleID int NOT NULL, FirstName varchar(255) NOT NULL, LastName varchar(255) NOT NULL, Email varchar(255) NOT NULL, Phone varchar(255) NULL, PRIMARY KEY (EmployeeID));
+CREATE TABLE EmployeeSatisfaction (EmployeeSatisfactionID int IDENTITY NOT NULL, EmployeeID int NOT NULL, Rating int NOT NULL, Comment varchar(255) NULL, SubmittedAt datetime NOT NULL, PRIMARY KEY (EmployeeSatisfactionID));
+CREATE TABLE ExtraPlannedWork (ExtraworkID int IDENTITY NOT NULL, Uploadedby varchar(255) NOT NULL, Photo int NOT NULL, Description varchar(255) NOT NULL, Status varchar(255) NOT NULL, ExtraHoursNeeded int NULL, EmployeeID int NOT NULL, PRIMARY KEY (ExtraworkID));
+CREATE TABLE PlannedWork (TaskID int NOT NULL, Name varchar(255) NOT NULL, Description varchar(255) NOT NULL, Status varchar(255) NOT NULL, PlannedHoursWorked int NULL, ScheduleID int NOT NULL, PRIMARY KEY (TaskID));
+CREATE TABLE ScheduleWork (ScheduleID int IDENTITY NOT NULL, AssignedTo int NOT NULL, [Date] int NOT NULL, [Start-Time] datetime NOT NULL, [End-Time] datetime NOT NULL, Notes varchar(255) NULL, CreatedBy int NOT NULL UNIQUE, PRIMARY KEY (ScheduleID));
+CREATE TABLE Site (SiteID int IDENTITY NOT NULL, ClientID int NOT NULL, Name varchar(100) NOT NULL, Address varchar(100) NOT NULL, PRIMARY KEY (SiteID));
+CREATE TABLE SitePlan (PlanFormID int NOT NULL, CreatedBy int NOT NULL, Name varchar(100) NOT NULL, Notes varchar(100) NULL, EmployeeID int NOT NULL, EstimatedHoursToFinnish int NULL, SiteSiteID int NOT NULL, NeededMaterials varchar(255) NULL, PRIMARY KEY (PlanFormID, EmployeeID));
+ALTER TABLE Complaint ADD CONSTRAINT FKComplaint6884 FOREIGN KEY (SiteID) REFERENCES Site (SiteID);
+ALTER TABLE SitePlan ADD CONSTRAINT FKSitePlan867961 FOREIGN KEY (EmployeeID) REFERENCES Employee (EmployeeID);
+ALTER TABLE Complaint ADD CONSTRAINT FKComplaint166867 FOREIGN KEY (ClientID) REFERENCES Client (ClientID);
+ALTER TABLE Site ADD CONSTRAINT FKSite163367 FOREIGN KEY (ClientID) REFERENCES Client (ClientID);
+ALTER TABLE ExtraPlannedWork ADD CONSTRAINT FKExtraPlann566281 FOREIGN KEY (EmployeeID) REFERENCES Employee (EmployeeID);
+ALTER TABLE ScheduleWork ADD CONSTRAINT FKScheduleWo404923 FOREIGN KEY (CreatedBy) REFERENCES Employee (EmployeeID);
+ALTER TABLE PlannedWork ADD CONSTRAINT FKPlannedWor6217 FOREIGN KEY (TaskID) REFERENCES ExtraPlannedWork (ExtraworkID);
+ALTER TABLE PlannedWork ADD CONSTRAINT FKPlannedWor445923 FOREIGN KEY (ScheduleID) REFERENCES ScheduleWork (ScheduleID);
+ALTER TABLE SitePlan ADD CONSTRAINT FKSitePlan8190 FOREIGN KEY (SiteSiteID) REFERENCES Site (SiteID);
+ALTER TABLE SitePlan ADD CONSTRAINT FKSitePlan172470 FOREIGN KEY (PlanFormID) REFERENCES PlannedWork (TaskID);
+ALTER TABLE EmployeeSatisfaction ADD CONSTRAINT FKEmployeeSa506586 FOREIGN KEY (EmployeeID) REFERENCES Employee (EmployeeID);
+ALTER TABLE CustomerSatisfaction ADD CONSTRAINT FKCustomerSa280230 FOREIGN KEY (ClientID) REFERENCES Client (ClientID);
+
