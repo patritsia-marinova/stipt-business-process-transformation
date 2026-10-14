@@ -2,7 +2,7 @@
 
 ## Overview
 
-During the final sprints of the STIPT Business Process Transformation project, I focused on validating and bringing together the system design, data analysis, and business deliverables into one coherent solution.
+This folder documents the final phase of the STIPT Business Process Transformation project, where I brought together the business analysis, process improvements, system design, and technical development completed throughout the semester.
 
 Building on the final ERD and KPIs, I worked on developing an invoice, connecting operational performance to business objectives, implementing KPI calculations using SQL and Python, and creating a Power Apps prototype to demonstrate how the proposed system could function in practice.
 
@@ -56,8 +56,10 @@ The prototype demonstrated how users could interact with the proposed solution a
 
 ## Outcome
 
-The final sprints brought together business process improvement, database development, data analysis, and application prototyping into one coherent solution.
+## Final Project Outcome
 
-By connecting the ERD, SQL database, KPI analysis, Business Balanced Scorecard, and Power Apps prototype, I demonstrated how business requirements can be translated into technical solutions that support operational efficiency and data-driven decision-making.
+The final phase marked the completion of the STIPT Business Process Transformation project, bringing together the work developed throughout the semester into one coherent solution.
 
-Throughout this phase, I strengthened my skills in SQL, Python, Pandas, Power Apps, and translating technical work into practical business value.
+By connecting the business process improvements, ERD, SQL database, KPI analysis, Business Balanced Scorecard, and Power Apps prototype, I demonstrated how business requirements could be translated into practical technical solutions that support operational efficiency and data-driven decision-making.
+
+This project strengthened my ability to manage the process from business analysis and solution design to technical development and validation, while applying my skills in SQL, Python, Pandas, Power Apps, and business process transformation.
